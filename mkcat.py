@@ -5,8 +5,6 @@ import configparser
 
 cfg = configparser.ConfigParser(inline_comment_prefixes=';#')
 
-cfg.read('cosmosis.ini')
-
 with open('flask.config') as f:
     flask_config = '[flask]\n' + f.read()
 cfg.read_string(flask_config)
