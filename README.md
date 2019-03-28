@@ -5,6 +5,7 @@ the [CosmoSIS] test sampler and a pseudomodule to generate [FLASK] input data.
 
     $ cosmosis cosmosis.ini     # run CosmoSIS to generate FLASK data
     $ flask flask.config        # run FLASK to generate the mock catalogue
+    $ ./catalog.py              # split into tomographic catalogues
 
 The process is configured through the following files.
 
